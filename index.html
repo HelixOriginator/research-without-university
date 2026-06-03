@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallol Chakrabarti | Independent Research & Open Knowledge Ecosystem</title>
+    <meta name="description" content="Documenting policy, governance, AI, public systems, and open knowledge through a large-scale ecosystem of independently produced, DOI-linked research outputs.">
+    <meta name="keywords" content="independent research, open access, DOI, policy research, AI governance, Kallol Chakrabarti, media press kit">
+    <meta name="author" content="Kallol Chakrabarti">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="How One Unaffiliated Indian Researcher Built a Global DOI-Linked Research Ecosystem">
+    <meta property="og:description" content="A documentary-style profile of independent research, open knowledge infrastructure, and publicly verifiable scholarly output.">
+    <meta property="og:image" content="https://helixoriginator.github.io/kallol-research-hub/og-image.jpg">
+    <meta property="og:url" content="https://helixoriginator.github.io/kallol-research-hub/">
+    <meta property="og:site_name" content="Kallol Chakrabarti Research Profile">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Independent Research Ecosystem | Kallol Chakrabarti">
+    <meta name="twitter:description" content="Documenting the shift in knowledge production beyond traditional institutional boundaries.">
+    <meta name="twitter:image" content="https://helixoriginator.github.io/kallol-research-hub/twitter-image.jpg">
+
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kallol Chakrabarti",
+      "jobTitle": "Independent Researcher",
+      "description": "Independent researcher building a global DOI-linked research ecosystem in policy, governance, AI, and open knowledge.",
+      "url": "https://helixoriginator.github.io/kallol-research-hub/",
+      "sameAs": [
+        "https://orcid.org/0009-0007-4971-8936",
+        "https://helixoriginator.github.io/kallol-research-hub/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Independent Research Initiative"
+      }
+    }
+    </script>
+
+    <style>
+        /* CSS Variables for Premium Dark Mode */
+        :root {
+            --bg-primary: #0a0a0b;
+            --bg-secondary: #121214;
+            --bg-tertiary: #1c1c1f;
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --border: #27272a;
+            --border-light: #3f3f46;
+            --font-serif: "Georgia", "Times New Roman", "Playfair Display", serif;
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --max-width: 1200px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-serif);
+            font-weight: 400;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+        h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 1.5rem; }
+        h3 { font-size: 1.25rem; font-family: var(--font-sans); font-weight: 600; letter-spacing: -0.01em; }
+        
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+        }
+
+        /* Layout Utilities */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .section {
+            padding: 6rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section:last-of-type {
+            border-bottom: none;
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+        .grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+        /* Components */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.875rem 1.75rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border-radius: 6px;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-family: var(--font-sans);
+        }
+
+        .btn-primary {
+            background-color: var(--text-primary);
+            color: var(--bg-primary);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--text-secondary);
+            color: var(--bg-primary);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--text-primary);
+            border-color: var(--border-light);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--text-primary);
+            background-color: var(--bg-tertiary);
+        }
+
+        .card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            border-color: var(--border-light);
+            transform: translateY(-2px);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--bg-tertiary);
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: rgba(10, 10, 11, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+        }
+
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding-top: 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin: 1.5rem 0 2.5rem;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .hero-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+            border-left: 2px solid var(--border);
+            margin-left: 1rem;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 3rem;
+            padding-left: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.4rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background-color: var(--bg-primary);
+            border: 2px solid var(--accent);
+            border-radius: 50%;
+        }
+
+        .timeline-year {
+            font-family: var(--font-sans);
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        /* FAQ Accordion */
+        details {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        summary {
+            padding: 1.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-primary);
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        summary:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        details[open] summary::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-content {
+            padding: 0 1.5rem 1.5rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Form */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            background-color: var(--bg-tertiary);
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero-meta {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .section {
+                padding: 4rem 0;
+            }
+            
+            .grid-2, .grid-3, .grid-4 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Utility */
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mt-8 { margin-top: 2rem; }
+        .highlight { color: var(--text-primary); font-weight: 500; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-inner">
+            <div class="logo">K. Chakrabarti</div>
+            <ul class="nav-links">
+                <li><a href="#story">The Story</a></li>
+                <li><a href="#ecosystem">Ecosystem</a></li>
+                <li><a href="#evidence">Evidence</a></li>
+                <li><a href="#resources">Media Resources</a></li>
+                <li><a href="#contact">Press Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <span class="tag">Media Briefing Document</span>
+                <h1>How One Unaffiliated Indian Researcher Built a Global DOI-Linked Research Ecosystem</h1>
+                <p class="hero-subtitle">
+                    Documenting policy, governance, AI, public systems, and open knowledge through a large-scale ecosystem of independently produced, publicly verifiable research outputs.
+                </p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="#contact" class="btn btn-primary">Media Contact</a>
+                    <a href="#evidence" class="btn btn-outline">Explore Evidence</a>
+                </div>
+                
+                <div class="hero-meta">
+                    <span>Independent Researcher</span>
+                    <span>•</span>
+                    <span>No University Affiliation</span>
+                    <span>•</span>
+                    <span>Open-Access Infrastructure</span>
+                    <span>•</span>
+                    <span>Publicly Verifiable</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: The Story in 60 Seconds -->
+    <section class="section" id="story">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <span class="tag">The Narrative</span>
+                    <h2>The Story in 60 Seconds</h2>
+                </div>
+                <div class="fade-in">
+                    <p>
+                        <span class="highlight">Who:</span> Kallol Chakrabarti is an independent researcher operating entirely outside the traditional academic apparatus. There is no university affiliation, no institutional laboratory, and no grant-funded department.
+                    </p>
+                    <p>
+                        <span class="highlight">Why it is unusual:</span> In an era where high-volume, high-impact research is almost exclusively tied to major institutions, Chakrabarti has systematically built a verifiable, DOI-linked research ecosystem from the ground up, utilizing open-access infrastructure.
+                    </p>
+                    <p>
+                        <span class="highlight">Why it matters:</span> This is not a story about a single breakthrough. It is a story about the <em>industrialization of independent scholarship</em>. It demonstrates how open knowledge systems, digital public infrastructure, and persistent identifiers (DOIs) are democratizing knowledge production, allowing rigorous, auditable research to emerge from outside traditional gatekeepers.
+                    </p>
+                    <p>
+                        <span class="highlight">Why journalists should care:</span> This represents a measurable shift in how research is produced, validated, and consumed in the digital era. It offers a tangible case study for broader conversations about the future of academic infrastructure, citizen-led scholarship, and the decentralization of expertise.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Why This Matters Now -->
+    <section class="section" id="matters">
+        <div class="container">
+            <div class="fade-in text-center" style="max-width: 800px; margin: 0 auto 3rem;">
+                <span class="tag">Context</span>
+                <h2>Why This Matters Now</h2>
+                <p style="font-size: 1.15rem; color: var(--text-primary); font-family: var(--font-serif); font-style: italic;">
+                    "The architecture of knowledge production is undergoing a quiet but profound shift. The monopoly of the traditional academic institution on credible research is being challenged by open infrastructure."
+                </p>
+            </div>
+            <div class="grid grid-3 fade-in">
+                <div class="card">
+                    <h3>The Rise of Independent Research</h3>
+                    <p class="mb-4">Scholarship is no longer confined to campus walls. Independent researchers are leveraging digital tools to produce work that rivals institutional output in scope and rigor.</p>
+                </div>
+                <div class="card">
+                    <h3>Democratization of Knowledge</h3>
+                    <p class="mb-4">Open-access repositories and persistent identifiers (DOIs) have dismantled historical barriers to entry, allowing rigorous work to be published, indexed, and cited globally.</p>
+                </div>
+                <div class="card">
+                    <h3>New Models of Scholarship</h3>
+                    <p class="mb-4">The digital era demands agile, interdisciplinary research. Independent ecosystems can pivot faster than traditional departments to address emerging issues in AI governance and public policy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Key Facts at a Glance -->
+    <section class="section" id="facts">
+        <div class="container">
+            <div class="fade-in text-center mb-8">
+                <span class="tag">Data Points</span>
+                <h2>Key Facts at a Glance</h2>
+                <p>Verifiable metrics representing the scale of the independent research ecosystem.</p>
+            </div>
+            <div class="grid grid-4 fade-in">
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">269+</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Total DOI-Linked Outputs</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">3+</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Research Repositories</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">5+</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Years Active</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">10</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Novel Frameworks</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">High</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Citation Visibility</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">3+</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Research Platforms</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">1</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Flagship Framework</div>
+                </div>
+                <div class="card text-center">
+                    <div style="font-size: 2.5rem; font-family: var(--font-serif); color: var(--text-primary); margin-bottom: 0.5rem;">50+</div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Policy Articles</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: The Guinness World Records Story -->
+    <section class="section" id="gwr">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <span class="tag">Timeline</span>
+                    <h2>The Guinness World Records Story</h2>
+                    <p style="margin-top: 1.5rem;">
+                        This timeline documents the procedural evolution of recognizing large-scale independent research. 
+                    </p>
+                    <div style="background-color: var(--bg-tertiary); border-left: 3px solid var(--accent); padding: 1.5rem; margin-top: 2rem; border-radius: 0 8px 8px 0;">
+                        <p style="margin: 0; color: var(--text-primary); font-weight: 500;">
+                            Important Clarification: <span style="color: var(--text-secondary); font-weight: 400;">No Guinness World Record has been claimed or awarded. A category proposal for unaffiliated independent research output is currently under manual review by Guinness World Records. This is a story about the evolution of recognition for independent scholarship, not a record claim.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <h3>Large-Scale Output Produced</h3>
+                            <p style="font-size: 0.95rem;">Systematic production and DOI-registration of a large volume of independent research outputs across multiple domains.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">20 April 2026</div>
+                            <h3>Proposal Submitted</h3>
+                            <p style="font-size: 0.95rem;">Formal proposal submitted to Guinness World Records to establish a measurable category for unaffiliated independent research output.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2026</div>
+                            <h3>Category Under Review</h3>
+                            <p style="font-size: 0.95rem;">Guinness World Records is currently reviewing the proposed category. The proposal has passed initial screening and is under manual review.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">Future</div>
+                            <h3>Establishing a Benchmark</h3>
+                            <p style="font-size: 0.95rem;">Potential establishment of a globally recognized, measurable benchmark for independent researchers, validating non-institutional knowledge production.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: The Research Ecosystem -->
+    <section class="section" id="ecosystem">
+        <div class="container">
+            <div class="fade-in text-center mb-8">
+                <span class="tag">Domains</span>
+                <h2>The Research Ecosystem</h2>
+                <p>A multidisciplinary approach to documenting and shaping public systems.</p>
+            </div>
+            <div class="grid grid-2 fade-in">
+                <div class="card">
+                    <h3>Policy Research</h3>
+                    <p>Evidence-based analysis of legislative frameworks, regulatory environments, and their downstream effects on civil society.</p>
+                </div>
+                <div class="card">
+                    <h3>Governance Frameworks</h3>
+                    <p>Architectural blueprints for transparent, accountable, and efficient public administration and institutional design.</p>
+                </div>
+                <div class="card">
+                    <h3>AI Governance</h3>
+                    <p>Critical examination of algorithmic accountability, ethical AI deployment, and the regulatory challenges of emerging technologies.</p>
+                </div>
+                <div class="card">
+                    <h3>Open Knowledge Systems</h3>
+                    <p>Advocacy and implementation of frameworks that ensure research, data, and public records remain accessible and auditable.</p>
+                </div>
+                <div class="card">
+                    <h3>Digital Public Infrastructure</h3>
+                    <p>Analysis of the foundational digital layers (identity, payments, data exchange) that enable modern civic participation.</p>
+                </div>
+                <div class="card">
+                    <h3>Citizen Participation Models</h3>
+                    <p>Research into mechanisms that empower non-expert citizens to engage meaningfully in complex policy and technological debates.</p>
+                </div>
+                <div class="card">
+                    <h3>Independent Research Infrastructure</h3>
+                    <p>The methodological and technical scaffolding required to produce, register, and maintain high-integrity research outside traditional institutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Public Interest Research</h3>
+                    <p>Scholarship explicitly designed to serve the public good, prioritizing societal benefit over commercial or institutional prestige.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Featured Works -->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="fade-in mb-8">
+                <span class="tag">Publications</span>
+                <h2>Featured Works</h2>
+                <p>Selected outputs representing the depth and breadth of the research ecosystem. All works are DOI-linked and publicly accessible.</p>
+            </div>
+            <div class="grid grid-3 fade-in">
+                <div class="card">
+                    <div class="tag" style="margin-bottom: 1rem;">Taxonomy</div>
+                    <h3>The Kallol Taxonomy of Research DOIs</h3>
+                    <p>A systematic classification framework for organizing and retrieving independent research outputs via persistent identifiers.</p>
+                    <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">View Document</a>
+                </div>
+                <div class="card">
+                    <div class="tag" style="margin-bottom: 1rem;">Governance</div>
+                    <h3>The Invisible Middleman</h3>
+                    <p>An investigative analysis of intermediary structures in public policy implementation and their impact on resource distribution.</p>
+                    <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">View Document</a>
+                </div>
+                <div class="card">
+                    <div class="tag" style="margin-bottom: 1rem;">Infrastructure</div>
+                    <h3>Architecture Genome Project</h3>
+                    <p>A foundational study mapping the structural DNA of civic and digital infrastructure in emerging economies.</p>
+                    <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">View Document</a>
+                </div>
+                <div class="card">
+                    <div class="tag" style="margin-bottom: 1rem;">Sociology</div>
+                    <h3>Civilizational Capital</h3>
+                    <p>Exploring the intersection of historical knowledge systems and modern economic frameworks in the Global South.</p>
+                    <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">View Document</a>
+                </div>
+                <div class="card">
+                    <div class="tag" style="margin-bottom: 1rem;">Rights</div>
+                    <h3>Bharat Rights Twin</h3>
+                    <p>A comparative framework analyzing the evolution of digital rights and privacy protections in contemporary India.</p>
+                    <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">View Document</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Evidence and Verification -->
+    <section class="section" id="evidence">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <span class="tag">Methodology</span>
+                    <h2>Evidence and Verification</h2>
+                    <p>In an era of misinformation, credibility is established through transparency. This ecosystem is built on verifiable, auditable foundations.</p>
+                </div>
+                <div class="fade-in">
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <h3>What are DOI-Linked Outputs?</h3>
+                        <p style="margin: 0;">A Digital Object Identifier (DOI) is a permanent, globally recognized link to a research document. Unlike a standard web link, a DOI cannot be broken or altered, ensuring the research remains permanently accessible and attributable.</p>
+                    </div>
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <h3>Public Traceability</h3>
+                        <p style="margin: 0;">Every output is registered with global indexing systems (e.g., Crossref). Any journalist or researcher can input the DOI into a public resolver to instantly verify the document's existence, authorship, and publication date.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Third-Party Auditability</h3>
+                        <p style="margin: 0;">Because the work resides in open-access repositories and is indexed by independent global systems, it can be audited by any third party without requiring permission from the author or an institution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Why Journalists Are Paying Attention -->
+    <section class="section" id="attention">
+        <div class="container">
+            <div class="fade-in text-center mb-8">
+                <span class="tag">Media Angles</span>
+                <h2>Why Journalists Are Paying Attention</h2>
+                <p>This profile offers multiple entry points for feature stories, investigative pieces, and documentary exploration.</p>
+            </div>
+            <div class="grid grid-3 fade-in">
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">The Rise of Independent Research</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">How individuals are bypassing traditional academic gatekeepers to produce high-volume, high-impact work.</p>
+                </div>
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">The Open Knowledge Movement</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">The philosophical and practical shift toward making all research outputs freely available to the public.</p>
+                </div>
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">Research Outside Institutions</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">The logistical and methodological challenges of maintaining rigorous standards without institutional support.</p>
+                </div>
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">Citizen-Led Scholarship</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">Redefining who gets to be considered an "expert" and how expertise is validated in the digital age.</p>
+                </div>
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">Future of Academic Infrastructure</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">What traditional universities can learn from agile, independent research ecosystems.</p>
+                </div>
+                <div style="padding: 1.5rem; border-left: 2px solid var(--border);">
+                    <h3 style="margin-bottom: 0.5rem;">Measuring Research in the Open Internet Era</h3>
+                    <p style="font-size: 0.95rem; margin: 0;">The story behind the Guinness World Records category proposal and the quest for new metrics of scholarly impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Media Resources -->
+    <section class="section" id="resources">
+        <div class="container">
+            <div class="fade-in text-center mb-8">
+                <span class="tag">Downloads</span>
+                <h2>Media Resources</h2>
+                <p>Assets for journalists, editors, and documentary filmmakers. All materials are cleared for editorial use.</p>
+            </div>
+            <div class="grid grid-3 fade-in">
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📄</div>
+                    <h3>Official Press Kit</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Comprehensive background, boilerplate text, and key facts.</p>
+                </a>
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">👤</div>
+                    <h3>Official Biography</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Short, medium, and long-form biographical texts.</p>
+                </a>
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📷</div>
+                    <h3>High-Resolution Photos</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Editorial-use headshots and workspace imagery.</p>
+                </a>
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">⏱️</div>
+                    <h3>Research Timeline</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Visual infographic of the ecosystem's development.</p>
+                </a>
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📚</div>
+                    <h3>Selected Publications</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">PDF compilation of key DOI-linked research outputs.</p>
+                </a>
+                <a href="#" class="card" style="text-align: center; display: block;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📇</div>
+                    <h3>Media Contact Sheet</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Direct lines for interview requests and fact-checking.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 10: Frequently Asked Questions -->
+    <section class="section" id="faq">
+        <div class="container" style="max-width: 800px;">
+            <div class="fade-in text-center mb-8">
+                <span class="tag">Clarifications</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="fade-in">
+                <details>
+                    <summary>Who is Kallol Chakrabarti?</summary>
+                    <div class="faq-content">
+                        Kallol Chakrabarti is an independent researcher focused on policy, governance, AI, and open knowledge systems. He operates outside traditional academic institutions, utilizing open-access infrastructure to produce and distribute DOI-linked research.
+                    </div>
+                </details>
+                <details>
+                    <summary>What is an independent researcher?</summary>
+                    <div class="faq-content">
+                        An independent researcher is a scholar who conducts and publishes research without formal affiliation to a university, corporate laboratory, or government think tank. They typically self-fund or utilize open-source tools and public repositories to maintain intellectual autonomy.
+                    </div>
+                </details>
+                <details>
+                    <summary>What are DOI-linked research outputs?</summary>
+                    <div class="faq-content">
+                        A DOI (Digital Object Identifier) is a permanent, unique alphanumeric string assigned to a digital object, such as a research paper. It ensures the document can always be found and verified, even if its web address changes, providing a gold standard for academic traceability.
+                    </div>
+                </details>
+                <details>
+                    <summary>How is the work verified?</summary>
+                    <div class="faq-content">
+                        Verification is achieved through public indexing. Each output is registered with global DOI registration agencies (like Crossref). Anyone can verify the existence, authorship, and publication date of the work by entering the DOI into a public resolver, independent of the author's own websites.
+                    </div>
+                </details>
+                <details>
+                    <summary>Why was a Guinness World Records category proposed?</summary>
+                    <div class="faq-content">
+                        The proposal was submitted to establish a measurable, objective benchmark for large-scale independent research output. It is currently under manual review. The goal is not personal accolade, but to validate and create visibility for the emerging model of non-institutional knowledge production.
+                    </div>
+                </details>
+                <details>
+                    <summary>What makes this story unique?</summary>
+                    <div class="faq-content">
+                        While independent research exists, the <em>scale</em> and <em>systematic infrastructure</em> of this ecosystem are unusual. It demonstrates that high-volume, rigorous, and globally indexed scholarship can be produced outside the traditional academic apparatus, challenging long-held assumptions about where credible research originates.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 11: Press Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <span class="tag">Get in Touch</span>
+                    <h2>Press Contact</h2>
+                    <p>For interview requests, fact-checking, documentary collaboration, or editorial inquiries, please use the form or contact details below.</p>
+                    
+                    <div style="margin-top: 2rem;">
+                        <p style="margin-bottom: 0.5rem;"><strong style="color: var(--text-primary);">Email:</strong> <a href="mailto:kallolchitralimagicpen@gmail.com">kallolchitralimagicpen@gmail.com</a></p>
+                        <p style="margin-bottom: 0.5rem;"><strong style="color: var(--text-primary);">Response Time:</strong> Within 48 hours</p>
+                    </div>
+
+                    <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                        <!-- Social Media Icons (SVG) -->
+                        <a href="https://orcid.org/0009-0007-4971-8936" target="_blank" aria-label="ORCID" style="color: var(--text-secondary);">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.313v7.444h2.297c3.272 0 4.069-2.484 4.069-3.713 0-2.269-1.434-3.731-3.984-3.731h-2.382z"/></svg>
+                        </a>
+                        <a href="https://helixoriginator.github.io/kallol-research-hub/" target="_blank" aria-label="Research Hub" style="color: var(--text-secondary);">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <form style="background-color: var(--bg-secondary); padding: 2rem; border-radius: 8px; border: 1px solid var(--border);">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="organization">Organization / Publication</label>
+                            <input type="text" id="organization" name="organization" required placeholder="e.g., Reuters, The Guardian">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="journalist@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Please include your deadline and the nature of your inquiry."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Media Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">
+                All research outputs are publicly documented and independently verifiable through global research infrastructures. 
+                <br><br>
+                &copy; 2026 Kallol Chakrabarti. All rights reserved. <br>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">This is a media briefing document. No Guinness World Record is claimed.</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer for Scroll Animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
